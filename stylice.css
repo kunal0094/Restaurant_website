@@ -1,0 +1,306 @@
+.navbar-brand {
+  color: #fff !important;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 35px;
+  line-height: 20px;
+  font-family: "Pacifico", cursive;
+}
+.navbar-toggler-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+.navbar {
+  position: sticky;
+  z-index: 20;
+  top: 0px;
+}
+.nav-item a {
+  margin-top: 5px;
+  color: #fff !important;
+  padding: 10px 15px;
+  font-weight: 700;
+  line-height: 20px;
+  margin: 10px;
+}
+.active {
+  border-bottom: 1px solid #96e16b;
+}
+.nav-item a:hover {
+  color: #96e16b;
+  border-bottom: 1px solid #96e16b;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #4caf50 !important;
+}
+
+.first {
+  text-align: center;
+  padding: 150px 0;
+  background-image: url("steak.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.first h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 120px;
+  font-weight: 400;
+  font-family: "Pacifico", cursive;
+}
+
+.first p {
+  font-weight: 500;
+  color: white;
+
+  font-size: 30px;
+  font-style: italic;
+}
+
+p::after {
+  content: "";
+  position: absolute;
+  width: 640px;
+  border: 1px solid white;
+  margin-top: 60px;
+  margin-left: -450px;
+}
+.about {
+  margin: 70px 0;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.center {
+  font-size: 37px;
+  font-weight: 900;
+  width: 300px;
+  letter-spacing: 0.04em;
+  border: 1px solid #2f2e2f;
+  display: inline-block;
+  padding: 7px 16px;
+  margin: 0;
+}
+
+.fa-cutlery,
+.fa-beer-mug-empty,
+.fa-bread-slice,
+.fa-hotdog {
+  font-size: 45px;
+  margin: 20px 0;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  font-family: "museo-sans", helvetica, sans-serif;
+}
+
+.about img {
+  width: 50%;
+  margin-bottom: -45px;
+  margin-left: 5px;
+  height: 190px;
+}
+
+.second {
+  text-align: center;
+  padding: 220px 0;
+  background-image: url("pricing.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#hover {
+  margin-top: 30px;
+
+  color: white;
+  font-size: 4.5em;
+  font-weight: 700;
+  position: relative;
+}
+
+#hover::after {
+  content: "";
+  position: absolute;
+  width: 350px;
+  border: 5px solid white;
+  margin-top: 96px;
+  margin-left: -610px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  margin-right: 20px;
+}
+
+/* ------------------------------------------------------------------ */
+
+.third {
+  padding: 75px 100px;
+}
+
+.third h3 {
+  color: black;
+  font-size: 4.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: -25px;
+}
+
+.third h3::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  border: 2px solid black;
+  margin-top: 100px;
+  margin-left: -450px;
+}
+.box-1 img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.box-price {
+  text-align: center;
+  padding: 10px;
+  background-color: red;
+}
+
+.box-price span {
+  font-size: 32px;
+  padding: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+/* ----------------------------------------------------- */
+
+.four {
+  text-align: center;
+  padding: 200px 0;
+  background-image: url("beer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.four h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 4.5em;
+  font-weight: 700;
+  position: relative;
+}
+
+.ber-img img {
+  width: 80%;
+  height: 350px;
+}
+
+/* --------------------------------------------------------------- */
+
+.five {
+  text-align: center;
+  padding: 220px 0;
+  background-image: url("breakfast.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* -------------------------------------------------- */
+
+.six {
+  text-align: center;
+  padding: 220px 0;
+  background-image: url("featured.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ------------------------------------------------- */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* -------------------------------------------- */
+
+.form-container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+input {
+  margin-bottom: 35px;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #66afe9;
+  outline: none;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+small {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+/* ----------------------------small Devices------------------- */
+
+@media (max-width: 800px) {
+  .first h1 {
+    font-size: 60px;
+  }
+  #hover,
+  .third h3,
+  .four h1 {
+    font-size: 40px;
+  }
+  .first p {
+    font-size: 20px;
+  }
+  #hover::after,
+  .third h3::after {
+    display: none;
+  }
+}
